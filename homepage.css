@@ -71,7 +71,7 @@
   align-items: center;
 }
 .navbar .search {
-  background: #9e5517;
+  border: 2px solid black;
   border-radius: 15px;
   flex-grow: 1;
   width: 320px;
@@ -99,23 +99,124 @@
   font-family: Oswald;
 }
 .content .news {
-  max-width: 1000px;
+  max-width: 998px;
   max-height: 1181;
   background-color: white;
   margin: 20px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-rows: 400px 376px;
 }
-.content .news img {
+.content .news .pic1 {
+  width: 958px;
+  height: 380px;
   margin: 20px;
 }
-.content p {
+.content .title1 {
   font-size: 36px;
   position: absolute;
   color: white;
-  left: 121px;
-  top: 960px;
+  left: 110px;
+  top: 963px;
 }
 .content .resach {
   max-width: 320px;
   max-height: 738;
   background-color: blueviolet;
+}
+
+.content .pic {
+  width: 306px;
+  height: 174px;
+}
+.content .g1 {
+  max-width: 958px;
+  height: 380px;
+  grid-column: 1 / 4;
+}
+.content .g1 .tag1 {
+  position: absolute;
+  width: 85px;
+  height: 31px;
+  left: 110px;
+  top: 935px;
+}
+.content .g2 {
+  max-width: 306px;
+  margin: 0px 0px 0px 20px;
+}
+.content .g2 .tag2 {
+  width: 85px;
+  height: 31px;
+  position: absolute;
+  left: 110px;
+  top: 1240px;
+}
+.content .g3 {
+  max-width: 306px;
+  margin: 0px 0px 0px 0px;
+}
+.content .g3 .tag3 {
+  width: 85px;
+  height: 31px;
+  position: absolute;
+  left: 425px;
+  top: 1238px;
+}
+.content .g4 {
+  max-width: 306px;
+  margin: 0px 20px 0px 0px;
+}
+.content .g4 .tag4 {
+  width: 85px;
+  height: 31px;
+  position: absolute;
+  left: 752px;
+  top: 1241px;
+}
+.content .g5 {
+  max-width: 306px;
+  margin: 0px 0px 0px 20px;
+}
+.content .g5 .tag5 {
+  width: 85px;
+  height: 31px;
+  position: absolute;
+  left: 109px;
+  top: 1635px;
+}
+.content .g6 {
+  max-width: 306px;
+  margin: 0px 0px 0px 0px;
+}
+.content .g6 .tag6 {
+  width: 85px;
+  height: 31px;
+  position: absolute;
+  left: 425px;
+  top: 1635px;
+}
+.content .g7 {
+  max-width: 306px;
+  margin: 0px 20px 0px 0px;
+}
+.content .g7 .tag7 {
+  width: 85px;
+  height: 31px;
+  position: absolute;
+  left: 752px;
+  top: 1635px;
+}
+.content .title {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.content .mota {
+  font-family: Oswald, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  margin-top: 10px;
 }
