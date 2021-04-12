@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  /* padding: 0 15px; */
+  background-color: #f2f2f2;
+
+  max-width: 1440px;
+  width: 1440px;
+  /* margin: 0px 50px; */
+}
+.clearfix {
+  clear: both;
+}
+.header {
+  background-image: url("/icon/homepage/header.jpeg");
+  height: 594px;
+  background-repeat: no-repeat;
+  font-family: Oswald;
+}
+.name {
+  font-size: 118px;
+  color: #683810;
+  opacity: 80%;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #d8b484;
+  /* stroke-width: 4px;
+  stroke: #d8b484; */
+  text-shadow: 0px 5px 4px rgba(199, 99, 49, 0.41);
+  position: absolute;
+  top: 227px;
+  left: 397px;
+}
+.slogan {
+  font-size: 31px;
+  color: #d8b484;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #683810;
+  position: absolute;
+  top: 385px;
+  left: 591px;
+}
+.navbarcolor {
+  background-color: #ffffff;
+}
+.navbar {
+  margin: 0 50px;
+  font-family: Oswald;
+  font-size: 18px;
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .list {
+  display: flex;
+  flex-grow: 1;
+  align-items: left;
+  justify-content: space-around;
+  width: 887px;
+  margin-right: 20px;
+}
+.navbar .list img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.navbar .list a {
+  display: flex;
+  align-items: center;
+}
+.navbar .search {
+  background: #9e5517;
+  border-radius: 15px;
+  flex-grow: 1;
+  width: 320px;
+  height: 60px;
+  margin: 3px 0;
+}
+.navbar .search img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 281px;
+  top: -6px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar img {
+  width: 70px;
+  height: 70px;
+}
+
+.content {
+  margin: 0 50px;
+  font-family: Oswald;
+}
+.content .news {
+  max-width: 1000px;
+  max-height: 1181;
+  background-color: white;
+  margin: 20px;
+}
+.content .news img {
+  margin: 20px;
+}
+.content p {
+  font-size: 36px;
+  position: absolute;
+  color: white;
+  left: 121px;
+  top: 960px;
+}
+.content .resach {
+  max-width: 320px;
+  max-height: 738;
+  background-color: blueviolet;
+}
