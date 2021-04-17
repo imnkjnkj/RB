@@ -75,15 +75,15 @@
   border-radius: 15px;
   flex-grow: 1;
   width: 320px;
-  height: 60px;
+  height: 48px;
   margin: 3px 0;
 }
 .navbar .search img {
   width: 70px;
   height: 70px;
   position: relative;
-  left: 281px;
-  top: -6px;
+  left: 279px;
+  top: -11px;
 }
 .navbar a {
   text-decoration: none;
@@ -102,7 +102,7 @@
   max-width: 998px;
   max-height: 1181;
   background-color: white;
-  margin: 20px;
+  margin: 20px 20px 20px 0px;
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -119,11 +119,6 @@
   color: white;
   left: 110px;
   top: 963px;
-}
-.content .resach {
-  max-width: 320px;
-  max-height: 738;
-  background-color: blueviolet;
 }
 
 .content .pic {
@@ -208,10 +203,6 @@
   left: 752px;
   top: 1635px;
 }
-.content .title {
-  font-size: 20px;
-  margin-top: 20px;
-}
 .content .mota {
   font-family: Oswald, sans-serif;
   font-weight: 300;
@@ -219,4 +210,50 @@
   line-height: 150%;
   letter-spacing: 0.02em;
   margin-top: 10px;
+}
+.content .resach {
+  width: 322px;
+  max-height: 738;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+.content .resach h3 {
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.content .r1 {
+  display: flex;
+  flex-direction: row;
+}
+.content .r1 img {
+  width: 97px;
+  height: 126px;
+  margin: 10px 20px 10px 10px;
+}
+.content .r1 h4 {
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 10px;
+  max-width: 142px;
+  text-align: center;
+}
+.content .r2 .danhgia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content .r2 .danhgia img {
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+}
+.content .resach .title {
+  background: #683810;
+  border-radius: 4px;
+}
+.content .top {
+  display: flex;
+  flex-direction: row;
 }
