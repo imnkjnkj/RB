@@ -124,7 +124,6 @@ navbar-my a {
 .header {
   text-decoration: none;
   height: 47px;
-  width: 100%;
   margin: 20px 50px;
   font-family: Oswald;
   font-style: normal;
@@ -145,7 +144,7 @@ navbar-my a {
   position: relative;
 }
 .content .phai {
-  margin-left: 20px;
+  margin-left: 83px;
   position: relative;
   top: 201px;
 }
@@ -167,23 +166,7 @@ navbar-my a {
   -webkit-text-stroke-color: #b57d4e;
   padding-left: 20px;
 }
-.content .head1 {
-  background: #683810;
-  border-radius: 4px;
-  width: 433px;
-  height: 47px;
-}
-.content .head1 p {
-  font-family: Oswald;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 43px;
-  color: #ffffff;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #b57d4e;
-  padding-left: 20px;
-}
+
 /* .content .c1 {
   display: flex;
   flex-direction: column;
@@ -193,7 +176,7 @@ navbar-my a {
   grid-template-columns: 433px 433px;
 }
 
-.content .it1 {
+.content .trai .it1 {
   width: 413px;
   height: 599px;
   background-color: #ffffff;
@@ -201,12 +184,12 @@ navbar-my a {
   margin-top: 20px;
   margin-left: 20px;
 }
-.content .it1 img {
+.content .trai .it1 img {
   margin: 10px;
   width: 393px;
   height: 218px;
 }
-.content .it1 .title {
+.content .trai .it1 .title {
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
@@ -216,7 +199,7 @@ navbar-my a {
   height: 73px;
   width: 393px;
 }
-.content .it1 .noidung {
+.content .trai .it1 .noidung {
   font-family: Oswald;
   font-style: normal;
   font-weight: 300;
@@ -227,7 +210,7 @@ navbar-my a {
   height: 228px;
   margin: 10px;
 }
-.content .it1 span {
+.content .trai .it1 span {
   margin: 0px 15px 10px 10px;
   font-family: Oswald;
   font-style: normal;
@@ -235,7 +218,7 @@ navbar-my a {
   font-size: 16px;
   color: #9b9b9b;
 }
-.content .it1 span img {
+.content .trai .it1 span img {
   margin: 0px;
   width: 16px;
   height: 16px;
@@ -243,7 +226,7 @@ navbar-my a {
 }
 
 .content .phai .it1 {
-  margin: 10px;
+  margin: 20px;
 }
 
 .footer-my {

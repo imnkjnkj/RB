@@ -1,0 +1,70 @@
+.it2 {
+  width: 320px;
+  height: 599px;
+  background-color: #ffffff;
+  filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.25));
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.it2 img {
+  margin: 10px;
+  width: 300px;
+  height: 218px;
+}
+.it2 .title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: black;
+  margin: 0px 10px;
+  height: 73px;
+  width: 300px;
+}
+.it2 .noidung {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  width: 300px;
+  height: 228px;
+  margin: 10px;
+}
+.it2 span {
+  margin: 0px 15px 10px 10px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #9b9b9b;
+}
+.it2 span img {
+  margin: 0px;
+  width: 16px;
+  height: 16px;
+  color: #9b9b9b;
+}
+.head1 p {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #b57d4e;
+  padding-left: 20px;
+}
+.head1 {
+  background: #683810;
+  border-radius: 4px;
+  width: 320px;
+  height: 47px;
+  margin-left: 20px;
+}
+.c1 {
+  display: flex;
+  flex-direction: column;
+}

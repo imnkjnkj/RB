@@ -1,12 +1,14 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tin Sách - RealBook</title>
+    <title> </title>
 
-    <link href="tinsach.css" rel="stylesheet">
+    <link href="content.css" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css?family=Oswald"
       rel="stylesheet"
@@ -25,7 +27,7 @@
    />
 </head>
 <body>
-    <div class="container-my">
+<div class="container-my">
     <div class="navbar-my">
         <a href="homepage.php">
         <img src="https://i.imgur.com/Ih4Cbv2.png" alt="" />
@@ -86,61 +88,22 @@
           <img src="https://i.imgur.com/oqccuuD.png" alt="" />
         </div>
     </div>
-    <div class="header">
-        <a href="homepage.php">Trang chủ /</a>
-        <a href="tinsach.php">Tin Sách</a>
+
+<div class="content">
+    <div class="trai">
+        <?php 
+        include('content .inc .php');
+        ?>
     </div>
 
-    <div class="content">
-      <div class="trai">
-        <div class="head">
-          <p>Tin Sách</p>
-        </div>
 
-        <div class="gr1">
-            <?php include('tinsach .inc .php');
-            ?>
-       </div>
+    <div class="phai">
+        <?php 
+        include('baivietmoi.php');
+        ?>
     </div>
 
-<div class="phai">
-    <!-- <div class="head1">
-        <p>Bài viết mới</p>
-    </div>
-    <div class="c1">
-            <div class="it1">
-              <img src="" alt="">
-              <div class="title">djfbhjskfbkajf</div>
-              <div class="noidung"></div>
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            </div>
-            <div class="it1">
-              <img src="" alt="">
-              <div class="title">djfbhjskfbkajf</div>
-              <div class="noidung"></div>
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            </div>
-    </div> -->
-    <?php 
-    include ('baivietmoi.php');
-    ?>
-    </div>
 
-  
 
     <div class="footer-my">
       <div class="top">
@@ -168,9 +131,10 @@
       </div>
       </div>
 </div>
+
 </div>
 </body>
-  
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
