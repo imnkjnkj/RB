@@ -8,7 +8,7 @@
   /* width: 1440px; */
   color: black;
   font-family: Oswald;
-  margin: 0px 16px 0px 16px;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
 }

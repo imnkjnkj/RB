@@ -31,38 +31,54 @@
       <div class="navbar-my">
         <a href="#">
         <img src="https://i.imgur.com/Ih4Cbv2.png" alt="" />
-      </a>
+        </a>
         <div class="list">
 
           <div class="tin">
-            <a href="tinsach.php">
+            <a href="tinsach.php" >
               <div class="chu">
               <img src="https://i.imgur.com/Yv917Nm.png" alt="" />
               <p>Tin Sách</p>
               </div>
-
-              <img src="https://img-premium.flaticon.com/png/512/32/32320.png?token=exp=1621012381~hmac=6e9fb348250bfae1bcc18049fc73a2bc" alt="" class="icon"></div>
+              <div class="icon">
+              <img src="https://i.imgur.com/F6wuHgN.png" alt="" ></div>
             </a>
           </div>
 
           <div class="review">
             <a href="#"
-              ><img src="https://i.imgur.com/Mp1Jbku.png" alt="" />
+              >
+              <div class="chu">
+              <img src="https://i.imgur.com/Mp1Jbku.png" alt="" />
               <p>Review Sách</p>
+              </div>
+              <div class="icon">
+              <img src="https://i.imgur.com/F6wuHgN.png" alt="" ></div>
             </a>
           </div>
 
           <div class="cafe">
             <a href="#"
-              ><img src="https://i.imgur.com/k9S2y8Y.png" alt="" />
+              >
+              <div class="chu">
+              <img src="https://i.imgur.com/k9S2y8Y.png" alt="" />
               <p>Cafe Sách</p>
+              </div>
+              <div class="icon">
+              <img src="https://i.imgur.com/F6wuHgN.png" alt="" ></div>
             </a>
           </div>
 
           <div class="goiy">
             <a href="#"
-              ><img src="https://i.imgur.com/AtyL8Y2.png" alt="" />
+              >
+              <div class="chu">
+                <img src="https://i.imgur.com/AtyL8Y2.png" alt="" />
               <p>Gợi Ý Sách</p>
+              </div>
+              <div class="icon">
+              <img src="https://i.imgur.com/F6wuHgN.png" alt="" ></div>
+
             </a>
           </div>
         </div>
@@ -462,10 +478,15 @@ Sách không những mang lại cho bạn một kho tàng kiến thức rộng l
           </div>
         </div>
 
+ -->
+ </div>
+ 
+ </div>
+ </div>
 
-<div class="footer-my">
+ <div class="footer-my">
   <div class="top">
-    <img src="/icon/logo.png" alt="">
+    <img src="https://i.imgur.com/Ih4Cbv2.png" alt="">
     <p>REAL BOOK</p>
   </div>
   <div class="down">
@@ -488,11 +509,9 @@ Sách không những mang lại cho bạn một kho tàng kiến thức rộng l
 
       </div>
 
-</div> -->
-
 </div>
-        </div>
-      </div>
+</div>
+
     </div>
     
     <!-- Optional JavaScript -->
