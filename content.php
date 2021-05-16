@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> </title>
+
 
     <link href="content.css" rel="stylesheet">
     <link
@@ -46,7 +46,7 @@
           </div>
 
           <div class="review">
-            <a href="#"
+            <a href="review.php"
               >
               <div class="chu">
               <img src="https://i.imgur.com/Mp1Jbku.png" alt="" />
@@ -58,7 +58,7 @@
           </div>
 
           <div class="cafe">
-            <a href="#"
+            <a href="cafesach.php"
               >
               <div class="chu">
               <img src="https://i.imgur.com/k9S2y8Y.png" alt="" />
@@ -70,7 +70,7 @@
           </div>
 
           <div class="goiy">
-            <a href="#"
+            <a href="goiysach.php"
               >
               <div class="chu">
                 <img src="https://i.imgur.com/AtyL8Y2.png" alt="" />

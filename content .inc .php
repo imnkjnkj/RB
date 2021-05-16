@@ -21,9 +21,9 @@ $result=mysqli_query($conn,$sql);
     // </div>
     //   ';
     echo '
+    <title> '.$row["tieude"].'</title>
 
     <div class="title">
-    
         '.$row["tieude"].'  <br>
         <span> 
         <img src="https://i.imgur.com/42mPhdJ.png" alt="">

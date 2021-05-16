@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tin Sách - RealBook</title>
+    <title>Review Sách - RealBook</title>
 
     <link href="review.css" rel="stylesheet">
     <link
@@ -88,48 +88,38 @@
     </div>
     <div class="header">
         <a href="homepage.php">Trang chủ /</a>
-        <a href="tinsach.php">Tin Sách</a>
+        <a href="reviews.php">Review Sách</a>
     </div>
+
     <div class="content">
-        <div class="top">
-            <div class="head">
-                <p>Review Sách</p>
+      <div class="head">
+        <p>Review Sách </p>
+      </div>
+
+      <div class="body">
+        <!-- <div class="it1">
+            <img src="./icon/c6071f2f4141df9e128c2c33e8f78e75.jpeg" alt="">
+              <div class="title">Đàn Ông Sao Hỏa Đàn Bà Sao Kim </div>
+
+              <button type="button">Đọc Tiếp</button>
+              <br>
+              <div class="du">
+             <span> 
+            <img src="https://i.imgur.com/42mPhdJ.png" alt="">
+            </span>
+            <span>
+            <img src="https://i.imgur.com/RmK2GqN.png" alt="">
+            tranthianhnhi
+            </span>
             </div>
-        <div class="down">
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
-            <div class="it1">
-            </div>
+            </div> -->
+          <?php
+            include ('review .inc .php');
+          ?>
+            
         </div>
-        </div>
+
+
     </div>
 
 
