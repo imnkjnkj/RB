@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tin Sách - RealBook</title>
+    <title>Cafe Sách - RealBook</title>
 
     <link href="cafesach.css" rel="stylesheet">
     <link
@@ -44,7 +44,7 @@
           </div>
 
           <div class="review">
-            <a href="reviews.php"
+            <a href="review.php"
               >
               <div class="chu">
               <img src="https://i.imgur.com/Mp1Jbku.png" alt="" />
@@ -68,7 +68,7 @@
           </div>
 
           <div class="goiy">
-            <a href="#"
+            <a href="goiysach.php"
               >
               <div class="chu">
                 <img src="https://i.imgur.com/AtyL8Y2.png" alt="" />
@@ -95,10 +95,11 @@
         <div class="head">
           <p>Cafe Sách</p>
         </div>
-        
-        <div class="nd1">
+        <div class="body">
+        <!-- <div class="it1">
           <img src=" " alt="">
-           <div class="m2">
+           <div class="it2">
+             <div class="it3">
               <span> 
                 <img src="https://i.imgur.com/42mPhdJ.png" alt="">
                 15/05/2021
@@ -107,130 +108,17 @@
               <img src="https://i.imgur.com/RmK2GqN.png" alt="">
                 tranthianhnhi
               </span>
+              <br>
+              </div>
             <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
+            <div class="noidung"> </div>
+            <button type="button">Đọc Tiếp</button>
             </div>
-           </div>
-        </div>
-        <div class="nd1">
-          <img src=" " alt="">
-           <div class="m2">
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
-            </div>
-           </div>
-        </div>
-        <div class="nd1">
-          <img src=" " alt="">
-           <div class="m2">
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
-            </div>
-           </div>
-        </div>
-        <div class="nd1">
-          <img src=" " alt="">
-           <div class="m2">
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
-            </div>
-           </div>
-        </div>
-        <div class="nd1">
-          <img src=" " alt="">
-           <div class="m2">
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
-            </div>
-           </div>
-        </div>
-        <div class="nd1">
-          <img src=" " alt="">
-           <div class="m2">
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
-            </div>
-           </div>
-        </div>
-        <div class="nd1">
-          <img src=" " alt="">
-           <div class="m2">
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
-            </div>
-           </div>
-        </div>
-        <div class="nd1">
-          <img src=" " alt="">
-           <div class="m2">
-              <span> 
-                <img src="https://i.imgur.com/42mPhdJ.png" alt="">
-                15/05/2021
-             </span>
-              <span>
-              <img src="https://i.imgur.com/RmK2GqN.png" alt="">
-                tranthianhnhi
-              </span>
-            <div class="title">Title</div>
-            <div class="nd2">
-               <p>button</p>
-            </div>
-           </div>
+        </div> -->
+<?php
+include('cafesach .inc .php');
+ ?>
+
         </div>
     </div>
 

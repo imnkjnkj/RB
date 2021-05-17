@@ -2,7 +2,7 @@
 include('config.php');
 
 $conn=mysqli_connect("localhost","root","","realbook");
-$sql="sELECT tieude, SUBSTRING(noidung,1,350), hinh, date, id from contentlist 
+$sql="sELECT tieude, SUBSTRING(noidung,1,300), hinh, date, id from contentlist 
 where DATEDIFF(CURDATE(), date) between 0 and 7
 limit 5
 ";
@@ -30,7 +30,7 @@ if(mysqli_num_rows($result)){
             '.$row["tieude"].'
             </div>
             <div class="noidung">
-            '.$row["SUBSTRING(noidung,1,350)"].'
+            '.$row["SUBSTRING(noidung,1,300)"].'
             </div>
             </a>
             <span> 

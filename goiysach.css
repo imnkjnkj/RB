@@ -43,17 +43,17 @@ navbar-my a {
   position: relative;
 }
 /* .navbar-my .icon {
-  display: inline-block;
-  height: 0px;
-  width: 148px;
-} */
+      display: inline-block;
+      height: 0px;
+      width: 148px;
+    } */
 .navbar-my .list {
   display: flex;
   flex-grow: 1;
   justify-content: center;
   width: 937px;
   /* margin-right: 50px;
-  margin-right: 50px; */
+      margin-right: 50px; */
 }
 .navbar-my .list img {
   width: 30px;
@@ -93,7 +93,6 @@ navbar-my a {
 .navbar-my .list .chu {
   display: inline-flex;
 }
-
 .navbar-my .list .icon img {
   height: 20px;
   width: 148px;
@@ -102,7 +101,7 @@ navbar-my a {
   left: 32px;
 }
 
-.navbar-my .list .tin .icon {
+.navbar-my .list .goiy .icon {
   opacity: 1;
 }
 
@@ -125,6 +124,7 @@ navbar-my a {
 .header {
   text-decoration: none;
   height: 47px;
+  width: 100%;
   margin: 20px 50px;
   font-family: Oswald;
   font-style: normal;
@@ -140,20 +140,14 @@ navbar-my a {
 
 .content {
   margin: 0 50px;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-.content .phai {
-  margin-left: 83px;
-  position: relative;
-  top: 201px;
+  width: 1340px;
+  background-color: white;
 }
 
 .content .head {
   background: #683810;
   border-radius: 4px;
-  width: 887px;
+  width: 1340px;
   height: 47px;
 }
 .content .head p {
@@ -168,50 +162,41 @@ navbar-my a {
   padding-left: 20px;
 }
 
-/* .content .c1 {
+.content .it1 {
+  margin: 20px;
   display: flex;
-  flex-direction: column;
-} */
-.content .gr1 {
-  display: grid;
-  grid-template-columns: 433px 433px;
+  flex-direction: row;
 }
-
-.content .trai .it1 {
-  width: 413px;
-  height: 599px;
-  background-color: #ffffff;
-  filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.25));
-  margin-top: 20px;
-  margin-left: 20px;
+.content .body .it1 img {
+  width: 452px;
+  height: 285px;
 }
-.content .trai .it1 img {
-  margin: 10px;
-  width: 393px;
-  height: 218px;
-}
-.content .trai .it1 .title {
+.content .body .it1 .title {
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   color: black;
-  margin: 0px 10px;
-  height: 73px;
-  width: 393px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
-.content .trai .it1 .noidung {
+.content .body .it1 .noidung {
   font-family: Oswald;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 0.02em;
   color: #000000;
-  width: 393px;
-  height: 228px;
-  margin: 10px;
+  margin: 10px 20px;
+  height: 98px;
 }
-.content .trai .it1 span {
+.content .body .it1 .du {
+  position: relative;
+  top: 37px;
+  left: 85px;
+}
+.content .body .it1 span {
   margin: 0px 15px 10px 10px;
   font-family: Oswald;
   font-style: normal;
@@ -219,15 +204,27 @@ navbar-my a {
   font-size: 16px;
   color: #9b9b9b;
 }
-.content .trai .it1 span img {
+.content .body .it1 span img {
   margin: 0px;
   width: 16px;
   height: 16px;
   color: #9b9b9b;
 }
-
-.content .phai .it1 {
-  margin: 20px;
+.content .body .it1 button {
+  width: 143px;
+  height: 48px;
+  background: #683810;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0px 0px 40px 20px;
+  font-size: 32px;
+}
+.content .it1 .it2 {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-my {

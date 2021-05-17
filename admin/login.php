@@ -1,4 +1,49 @@
-
+<?php
+//Khai báo sử dụng session
+session_start();
+//Khai báo utf-8 để hiển thị được tiếng việt
+header('Content-Type: text/html; charset=UTF-8');
+//Xử lý đăng nhập
+if (isset($_POST['dangnhap']))
+{
+//Kết nối tới database
+include('config.php');
+  
+//Lấy dữ liệu nhập vào
+$username = addslashes($_POST['username']);
+$password = addslashes($_POST['password']);
+  
+//Kiểm tra đã nhập đủ tên đăng nhập với mật khẩu chưa
+if (!$username || !$password) {
+echo "Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu. <a href='javascript: history.go(-1)'>Trở lại</a>";
+exit;
+}
+  
+// mã hóa pasword
+$password = md5($password);
+  
+//Kiểm tra tên đăng nhập có tồn tại không
+$query = mysql_query("SELECT username, password FROM member WHERE username='$username'");
+if (mysql_num_rows($query) == 0) {
+echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
+exit;
+}
+  
+//Lấy mật khẩu trong database ra
+$row = mysql_fetch_array($query);
+  
+//So sánh 2 mật khẩu có trùng khớp hay không
+if ($password != $row['password']) {
+echo "Mật khẩu không đúng. Vui lòng nhập lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
+exit;
+}
+  
+//Lưu tên đăng nhập
+$_SESSION['username'] = $username;
+echo "Xin chào <b>" .$username . "</b>. Bạn đã đăng nhập thành công. <a href=''>Thoát</a>";
+die();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,47 +64,23 @@
   </head>
   <body>
     <div class="container">
-    <?php
-session_start();
-?>
-    <section class ="Login-form">
+
       <div class="top">
         <img src="https://i.imgur.com/Ih4Cbv2.png" alt="" />
         <p>Đăng nhập vào Real Book</p>
       </div>
       <div class="login">
-        <form action="action.php" method = "post">
-          <legend for="username">username</legend>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            placeholder="username"
-          />
-
-          <label for="password">password</label>
-
-          <input type="password" id="password" name="password" placeholder="password" />
-
+      <form action='login.php?do=login' class="dangnhap" method='POST'> 
+          Tên đăng nhập : <input type='text' name='username' /> 
+          Mật khẩu : <input type='password' name='password' /> 
+<input type='submit' class="button" name="dangnhap" value='Đăng nhập' /> 
           <a href="#">Forgot password?</a>
-          <input type="submit" name="submit" value="Log in" />
-        </form>
+\        </form>
  
 
       </div>
-      <?php 
-    if (isset($_GET["error"])){
-      if($_GET["error"]=="emptyinput"){
-        echo "<p> Fill in all Fields</p>";
-
-      }
-      else if($_GET["error"]=="wronglogin"){
-        echo "<p> Sai thong tin dang nhap</p>";
-      }
-    }
-    ?>
+      
     </div>
-</section>
 
   </body>
 
